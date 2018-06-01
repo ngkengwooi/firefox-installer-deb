@@ -1,2 +1,3 @@
 #!/bin/bash -e
 rm -f /usr/local/bin/firefox > /dev/null
+rm -rf /opt/firefox > /dev/null
