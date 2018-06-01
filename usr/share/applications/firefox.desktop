@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Firefox Web Browser
+GenericName=Web Browser
+Comment=Firefox Web Browser
+Exec=/opt/firefox/firefox %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/opt/firefox/browser/chrome/icons/default/default128.png
+Categories=Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml_xml;application/x-mimearchive;x-scheme-handler/http;x-scheme-handler/https;
+StartupWMClass=firefox
+StartupNotify=true

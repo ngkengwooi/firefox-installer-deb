@@ -1,0 +1,11 @@
+#!/bin/bash -e
+ARCH=linux
+TARBALL=/tmp/firefox.tar.bz2
+if [ `uname -m` == "x86_64" ]; then
+	ARCH=linux64
+fi
+wget -O $TARBALL "https://download.mozilla.org/?product=firefox-latest-ssl&os=${ARCH}"
+tar -C /opt -xf $TARBALL
+rm -f $TARBALL
+rm -f /usr/local/bin/firefox > /dev/null
+ln -s /opt/firefox/firefox /usr/local/bin/firefox

@@ -1,0 +1,9 @@
+Package: firefox-installer-deb
+Version: 1.0
+Maintainer: Keng Wooi Ng <ngkengwooi@gmail.com>
+Section: web
+Architecture: all
+Depends: wget, tar
+Priority: optional
+Description: Package installer for Firefox on Debian Linux systems.
+ This installer will download and install the latest version of the Firefox web browser on Debian Linux systems. Firefox will be installed in /opt/firefox.
